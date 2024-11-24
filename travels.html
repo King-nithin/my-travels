@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./travels.css">
+    <title>Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+        
+    <header>
+        
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+            <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#package">package</a>
+            <a href="#service">service</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+    </header>
+
+    <div class="login-form-container">
+      <i class="fas fa-time" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+
+    </div>
+    
+    <section class="home" id="home">
+       <div class="content">
+         <h3>adventure is worthwhile</h3>
+         <p>discover new places with us, adventure awaits</p>
+         <a href="#" class="btn">discover more</a>
+       </div>
+    
+     <div class="controls">
+            <span class="vid-btn active" data-src="https://videocdn.cdnpk.net/videos/25a8a267-dcb5-4ef8-bf13-3a82522d6a7c/horizontal/previews/watermarked/large.mp4"></span>
+            <span class="vid-btn" data-src="D:\webtechnology\Assets\videos\video1.mp4"></span>
+            <span class="vid-btn" data-src="D:\webtechnology\Assets\videos\video2.mp4"></span>
+            <span class="vid-btn" data-src="D:\webtechnology\Assets\videos\video3.mp4"></span>
+            <span class="vid-btn" data-src="D:\webtechnology\Assets\videos\video4.mp4"></span>
+     </div>
+ 
+        <div class="video-container">
+            <video src="https://videocdn.cdnpk.net/videos/25a8a267-dcb5-4ef8-bf13-3a82522d6a7c/horizontal/previews/watermarked/large.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="../../../webtechnology/Assets/images/jointfamily/mantravel.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+
+                <div class="inputBox">
+                    <h3>How Many</h3>
+                    <input type="number" placeholder="place name">
+                </div>
+
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date" placeholder="place name">
+                </div>
+
+                <div class="inputBox">
+                    <h3>Learing</h3>
+                    <input type="date" placeholder="place name">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+
+    </section>
+
+    <section class="package" id="package">
+
+        <h1 class="heading">
+           <span>p</span>
+           <span>a</span>
+           <span>c</span>
+           <span>k</span>
+           <span>a</span>
+           <span>g</span>
+           <span>e</span>
+           <span>s</span>
+        </h1>
+        
+        <div class="box-container">
+
+            <div class="box">
+                <img src="../../../../webtechnology/Assets/images/jointfamily/polaland.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>PoleLand</h3>
+                    <p>Poland has a rich and tumultuous history that dates back over a thousand years.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../../../webtechnology/Assets/images/jointfamily/bsydney.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p>Sydney is a vibrant coastal city in Australia known for its iconic landmarks</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="../../../../webtechnology/Assets/images/jointfamily/chicago.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>chicago</h3>
+                    <p>Chicago is a bustling metropolis in the U.S. known for its stunning skyline</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/dubai.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>chicago</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/goa.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Goa</h3>
+                    <p>Goa is a popular coastal state in India renowned for its stunning beaches.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+           
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/maldivas.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Maldives</h3>
+                    <p> The Maldives is a tropical paradise in the Indian Ocean,</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+          
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/uk.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>USK</h3>
+                    <p>The United States of Korea (USK) is a hypothetical or fictional entity that might refer to a vision of a unified Korea.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/malta.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Malta</h3>
+                    <p>Malta is a Mediterranean archipelago known for its rich history.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/isreal.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Iseral</h3>
+                    <p>Israel is a Middle Eastern country known for its significant historical and religious sites.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/china.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>China</h3>
+                    <p>China is a vast East Asian country with a rich cultural heritage, known for its ancient history.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/swaziland.avif" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Swaziland</h3>
+                    <p> landlocked kingdom in Southern Africa known for its rich cultural traditions, stunning landscapes.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+           
+            <div class="box">
+                <img src="../../../webtechnology/Assets/images/jointfamily/Brazil.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Brazil</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- package section end -->
+
+<!-- service section starts -->
+
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corrupti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit beatae</p>
+            </div>
+
+            <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>food and drinks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit beatae, </p>
+            </div>
+
+            <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>safty guide</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corrupti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit beatae</p>
+            </div>  
+            
+            <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>around the world</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corruptiLorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit beatae.</p>
+            </div>  
+                
+            <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>fasttest travel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corrupti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit beatae</p>
+            </div>    
+            
+            <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>adverture</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corrupti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit beatae</p>
+            </div>    
+
+    </div>
+
+</section>
+<!-- serivces section ends -->
+
+<!-- gallery section starts -->
+
+ <section class="gallery" id="gallery"> 
+    
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+     
+    <div class="box-container">
+
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image1.avif" alt="imag1">
+            <div class="content">
+                <h3>Israel place</h3>
+                <p>Israel is a Middle Eastern country known for its significant historical and religious sites.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+       
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image2.avif" alt="image2">
+            <div class="content">
+                <h3>Brazil place</h3>
+                <p>Brazil is the largest country in South America, renowned for its diverse culture, vibrant festivals like Carnival,.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image33.avif" alt="image3">
+            <div class="content">
+                <h3>Maldives place</h3>
+                <p>The Maldives is a tropical paradise in the Indian Ocean</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image4.avif" alt="image4">
+                <div class="content">
+                <h3>Swaziland place</h3>
+                <p>landlocked kingdom in Southern Africa known for its rich cultural traditions, stunning landscapes.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image5.avif" alt="image5">
+            <div class="content">
+                <h3>China place</h3>
+                <p>China is a vast East Asian country with a rich cultural heritage, known for its ancient history.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+       
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image6.avif" alt="mag6">
+            <div class="content">
+                <h3>Malta place</h3>
+                <p>Malta is a Mediterranean archipelago known for its rich history,..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image7.avif" alt="imag7">
+            <div class="content">
+                <h3>Sydney place</h3>
+                <p>Sydney is a vibrant coastal city in Australia known for its iconic landmarks</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image8.avif" alt="iamg8">
+            <div class="content">
+                <h3>Goa place</h3>
+                <p>Goa is a popular coastal state in India renowned for its stunning beaches.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="../../../webtechnology/Assets/images/jointfamily/image3.avif" alt="iamg9">
+            <div class="content">
+                <h3>Maldives place</h3>
+                <p>The Maldives is a tropical paradise in the Indian Ocean.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+ </section>
+
+ <!-- gallery section ends -->
+
+<!-- review section starts -->
+   
+<section>
+ 
+  <div class="review" id="review">
+    
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper mySwiper review-slider"> 
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../../../Assets/images/jointfamily/manger6.png" alt="Grandfather">
+                    <h3>Ella Stone</h3> <!-- Capitalized name for consistency -->
+                    <p>Meet Ella Stone, our friendly front desk receptionist. With a bright smile and a welcoming demeanor, James is always ready to assist guests with check-in, recommendations, and any inquiries they may have.   </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../../../Assets/images/jointfamily/manger1.jpg" alt="Father"> <!-- Corrected alt text -->
+                    <h3>Sarah Thompson</h3> <!-- Capitalized name for consistency -->
+                    <p> Sarah Thompson, our dedicated hotel manager, brings over a decade of hospitality experience to our team. With a keen eye for detail and a passion for guest satisfaction,she can recommend the best restaurants she ensures every stay is memorable.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../../../Assets/images/jointfamily/manger2.png" alt="Grandfather"> <!-- Corrected alt text -->
+                    <h3>Aiden Knox</h3> <!-- Capitalized name for consistency -->
+                    <p>Aiden Knox is a vital member of our housekeeping team, known for her meticulous attention to detail and commitment to cleanliness.she can recommend the best restaurantsWith over five years of experience in the industry..</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../../../Assets/images/jointfamily/manger3.webp" alt="Person Image"> <!-- Improved alt text -->
+                    <h3>David Kim</h3> <!-- Capitalized name for consistency -->
+                    <p>David Kim, our talented head chef, crafts culinary masterpieces that delight our guests’ palates. With a background in French cuisine and a passion for farm-to-table cooking, David uses locally sourced ingredients to create innovative dishes.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../../../Assets/images/jointfamily/manger4.jpg" alt="Person Image"> <!-- Improved alt text -->
+                    <h3>Nathan Wells</h3> <!-- Capitalized name for consistency -->
+                    <p>Nathan Wells, our knowledgeable concierge, is here to enhance your stay with personalized service and local insights. With her extensive network of contacts in the area,she can recommend the best restaurants she can recommend the best restaurants, attractions.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../../../Assets/images/jointfamily/manger.webp" alt="Person Image"> <!-- Improved alt text -->
+                    <h3>Rachel Lee</h3> <!-- Capitalized name for consistency -->
+                    <p> Rachel Lee is our spa manager, dedicated to providing guests with a relaxing and rejuvenating experience. With a background in wellness and holistic therapies, she curates a menu of treatments that promote relaxation and well-being. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../../../Assets/images/jointfamily/manger7.jpg" alt="Person Image"> <!-- Improved alt text -->
+                    <h3> Michael Johnson</h3> <!-- Capitalized name for consistency -->
+                    <p>Michael Johnson is our dynamic event coordinator, specializing in creating unforgettable experiences for weddings, corporate retreats, and special celebrations. With a meticulous approach and a flair for creativity.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div> <!-- End of swiper-wrapper -->
+    
+        <!-- Optional Navigation Buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div> <!-- End of swiper -->
+    
+
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact">
+ 
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+
+        <div class="image">
+            <img src="D:\webtechnology\Assets\images\jointfamily\traveloverall-removebg-preview.png" alt="">
+        </div>
+     
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class=" btn" value="send message">
+        </form>
+
+    </div>
+
+
+
+</section>
+
+
+
+<!-- contact section ends -->
+
+<!-- brand section -->
+  
+<!-- <section class="brand-container">
+    <div class="brand-slider swiper"> 
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../../../Assets/images/jointfamily/log6-removebg-preview.png" alt="Brand Logo 1"></div>
+            <div class="swiper-slide"><img src="../../../Assets/images/jointfamily/log6-removebg-preview.png" alt="Brand Logo 2"></div>
+            <div class="swiper-slide"><img src="../../../Assets/images/jointfamily/log6-removebg-preview.png" alt="Brand Logo 3"></div>
+            <div class="swiper-slide"><img src="../../../Assets/images/jointfamily/log6-removebg-preview.png" alt="Brand Logo 4"></div>
+        </div>
+    </div>
+</section> -->
+
+
+
+<!-- brand section -->
+
+<section class="footer">
+
+   <div class="box-container">
+    
+    <div class="box">
+        <h3>about us</h3>
+        <p> Sharing stories and experiences from trips taken, including cultural encounters, adventures, and memorable moments.Travel Blogs or Guides: Providing insights and tips about different destinations, itineraries, and travel hacks to help others explore the world.Discussing how travel impacts personal growth, understanding of different cultures, and the importance of exploration in life.</p>
+    </div>
+
+    <div class="box">
+        <h3>barnch location</h3>
+       <a href="#">India</a>
+       <a href="#">Usa</a>
+       <a href="#">Japan</a>
+       <a href="#">France</a>
+    </div>
+
+    <div class="box">
+        <h3>quick links</h3>
+       <a href="#">home</a>
+       <a href="#">book</a>
+       <a href="#">package</a>
+       <a href="#">services</a>
+       <a href="#">gallery</a>
+       <a href="#">review</a>
+       <a href="#">contact</a>
+    </div>
+    
+    <div class="box">
+        <h3>follow us</h3>
+       <a href="#">facebook</a>
+       <a href="#">instagram</a>
+       <a href="#">twitter</a>
+       <a href="#">linkedin</a>
+    </div>
+
+   </div>
+   
+   <h1 class="credit">created by <span> mr. Baindla Nithin </span> ! all rights reserved</h1>
+
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./travels.js"></script>
+</body>
+</html>
